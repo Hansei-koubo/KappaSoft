@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>かっぱソフト</title>
+  <meta charset="UTF-8">
+
+<link rel="stylesheet" href="art.css">
+  <!-- konami.js をCDNから読み込み -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/konami-js/1.6.2/konami.min.js"></script>
+</head>
+<body>
+<script src="konami.js"></script>
+    <div class="loader"></div>
+</div>
+<a href="index.html"><img src="aaaaaaaaaaa.png" width="70" height="70" alt="サンプル画像"></a>
+  <h1>かっぱソフト公式ホームページ</h1>
+  <p>ようこそ!ここはかっぱソフト公式サイトです。</p>
+  <p>スタジオの情報やゲームの進捗、問い合わせなどのコンテンツがあります。</p>
+<nav>
+
+<ul class="table-cell">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="profile.html">プロフィール紹介</a></li>
+    <li><a href="news.html">最新情報</a></li>
+    <li><a href="#">ブログ</a></li>
+    <li><a href="comu.html">お問い合わせ</a></li>
+  </ul>
+  <h1>　</h1>
+<h1>連絡先、スタジオ所在地</h1>
+<h4>メール</h4>
+<p> kappasoft.2025@gmail.com</p>
+<h4>所在地(LINE)</h4>
+<p>  https://x.gd/Dnicl</p>
+<h4>発表サイト(Scratch)</h4>
+<p>  https://scratch.mit.edu/users/Kappa-Soft/</p>
+<h4>公式Youtube</h4>
+<p>https://www.youtube.com/channel/UCe1sHA8z2HBIzToMWvUsaTA</p>
+
+<h4>Copyright © 2025 KappaSoft All Rights Reserved.</h4>
+<!-- BGM用オーディオタグ -->
+  <audio id="bgm" src="videoplaybackk.weba" preload="auto"></audio>
+<script>
+    // コナミコマンドが入力されたときの処理
+    var easter_egg = new Konami(function() {
+ const bgm = document.getElementById("bgm");
+      bgm.currentTime = 0;   // 再生位置を先頭に戻す
+      bgm.play();            // 再生開始
+      alert("コナミコマンドが入力されました");
+      document.body.style.backgroundColor = "blue";
+    });
+  </script>
+</nav>
+</body>
+</html>
