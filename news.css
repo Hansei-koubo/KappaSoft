@@ -1,0 +1,17 @@
+.box {
+  background-image: url(https://images.unsplash.com/photo-1530508777238-14544088c3ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3MDk1MDI4Njd8&ixlib=rb-4.0.3&q=85);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  margin-inline: auto;
+  padding-left: 200px;
+  width: 150vw;
+}
+img {
+  max-width: 200px;
+  object-fit: contain;
+  width: 100%;
+}
+body {
+  margin-bottom: 600px;
+}
